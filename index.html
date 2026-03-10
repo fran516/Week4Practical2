@@ -23,19 +23,19 @@
                 <fieldset>
                     <legend>Do you have an outside space?</legend> 
                     <label for="yesOutsideSpace">Yes</label>
-                    <input id="yesOutsideSpace" name="outsideSpace-yes-or-no" type="radio" value="yesO" required>
+                    <input id="yesOutsideSpace" name="outsideSpace-yes-or-no" type="radio" value="yes" required>
                     <label for="noOutsideSpace">No</label>
-                    <input id="noOutsideSpace" name="outsideSpace-yes-or-no" type="radio" value="noO">        
+                    <input id="noOutsideSpace" name="outsideSpace-yes-or-no" type="radio" value="no">        
                 </fieldset>
             </div>
             <div>
                 <fieldset>
                     <legend>Do you have children living or regularly visiting the home?</legend> 
                     <label for="yesChildren">Yes</label>
-                    <input id="yesChildren" name="childAtHome-yes-or-no" type="radio" value="yesC" required>
+                    <input id="yesChildren" name="childAtHome-yes-or-no" type="radio" value="yes" required>
                     <label for="noChildren">No</label>
-                    <input id="noChildren" name="childAtHome-yes-or-no" type="radio" value="noC">   
-                    <label for="age">If you selected yes, what is the age range?</label>
+                    <input id="noChildren" name="childAtHome-yes-or-no" type="radio" value="no">   
+                    <label for="age" id="child-ages">If you selected yes, what is the age range?</label>
                     <input id="age" name="age" type="text" placeholder="age range">   
                 </fieldset> 
             </div>  
@@ -43,10 +43,10 @@
                 <fieldset>
                     <legend>Are there other pets in the home?</legend> 
                     <label for="yesPets">Yes</label>
-                    <input id="yesPets" name="otherPet-yes-or-no" type="radio" value="yesP" required>
+                    <input id="yesPets" name="otherPet-yes-or-no" type="radio" value="yes" required>
                     <label for="noPets">No</label>
-                    <input id="noPets" name="otherPet-yes-or-no" type="radio" value="noP">     
-                    <label for="species">If you selected yes, what species are the other pets?</label>
+                    <input id="noPets" name="otherPet-yes-or-no" type="radio" value="no">     
+                    <label for="species" id="otherSpecies">If you selected yes, what species are the other pets?</label>
                     <input id="species" name="species" type="text" placeholder="species">     
                 </fieldset>
             </div>    
